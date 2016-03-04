@@ -12,7 +12,7 @@
 
 use Bitrix\Main\Application;
 
-class Menu extends CBitrixComponent
+class MenuComponent extends CBitrixComponent
 {
     protected function getMenuItems()
     {
