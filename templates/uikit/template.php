@@ -14,7 +14,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
 
 $tree = function ($menu) use (&$tree) {
     global $APPLICATION;
-    $curPage = $APPLICATION->GetCurPage();
+    $curPage = $APPLICATION->GetCurDir();
 
     foreach ($menu as $item) {
         $active = (rtrim($curPage, '/') == rtrim($item['LINK'], '/'));
