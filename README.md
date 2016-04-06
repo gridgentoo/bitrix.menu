@@ -22,7 +22,13 @@ $APPLICATION->IncludeComponent(
 return [
     [
         'NAME' => 'Главная',
-        'LINK' => '/'
+        'LINK' => '/',
+        'CHILD' => [
+			[
+				'NAME' => 'Дочерний',
+				'LINK' => '/child'
+			],
+	    ]
     ]
 ]
 ```
