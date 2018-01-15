@@ -1,0 +1,25 @@
+{
+  "name": "falur/bitrix-menu",
+  "type": "bitrix-d7-component",
+  "description": "Bitrix menu component",
+  "keywords": [
+    "bitrix",
+    "menu",
+    "component"
+  ],
+  "license": "GNU General Public License",
+  "require": {
+    "php": ">=7.1.0",
+  },
+  "authors": [
+    {
+      "name": "Ildar Enakaev",
+      "email": "ienakaev@ya.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Falur\\Bitrix\\Components\\Menu\\": "./"
+    }
+  }
+}
